@@ -1,0 +1,15 @@
+.header-items{
+    background-color: rgb(70, 70, 70);
+    top: 0;
+    margin-top: 0;
+    text-align: center;
+    position: sticky;
+}
+
+.item{
+    color: aliceblue;
+    display: inline-block;
+    padding-right: 50px;
+   text-decoration: none;
+
+}

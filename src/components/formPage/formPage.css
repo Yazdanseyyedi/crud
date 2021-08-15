@@ -1,0 +1,118 @@
+.my-list-page {
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    margin-left: -18px;
+    overflow: auto;
+}
+
+.form{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 10%;
+  display: flex;
+  background-color: rgb(116, 116, 116);
+  align-items: center;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 100%;
+  border-radius: 10px;
+  
+}
+
+.submit{
+    display: flex;
+    color: darkgray;
+    width: 70px;
+    border-radius: 5px;
+    justify-content: center;
+    margin-right: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: rgb(61, 61, 61);
+}
+
+.input{
+    height: 20%;
+    background-color: darkgray;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.list-card {
+    display: flex;
+    /* flex: 1; */
+    flex-direction: row-reverse;
+    width: 400px;
+    align-items: center;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    background-color: rgb(161, 154, 154);
+    margin: 20px;}
+
+.cover-div {
+    display: flex;
+    padding: 10px;
+    height: 100px;
+    flex-direction: column;}
+
+.cover {
+    border-radius: 100%;
+    height: 85px;
+    width: 85px;
+    object-fit: cover;
+    }
+
+.content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 5px 10px;}
+
+.in-line-item {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    direction: rtl;
+    justify-content: flex-end;
+    font-weight: normal;
+    font-size: 14px;
+    word-break: break-word;
+    margin-bottom: 8px;
+    }
+
+.end-line-button {
+    margin-top: 5px;
+    display: flex;}
+
+.delete {
+    display: flex;
+    color: white;
+    width: 50px;
+    border-radius: 5px;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #f34e4e;
+    margin-left: 5px;
+    }
+
+.detail {
+    display: flex;
+    color: white;
+    width: 50px;
+    border-radius: 5px;
+    justify-content: center;
+    margin-right: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #4e59f3;
+}
